@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Essential Meta Tags for SEO and Responsive Design -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jeel Mali - Portfolio, Education, Goals, Achievements" />
+  <meta name="author" content="Jeel Mali" />
+  <meta property="og:title" content="Jeel Mali Portfolio" />
+  <meta property="og:image" content="assets/your-photo.jpg" />
+  <meta property="og:description" content="Personal introduction portfolio site." />
+  <meta name="theme-color" content="#ffffff" />
+
+  <title>Jeel Mali Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" />
+
+  <!-- Tailwind CSS & Fonts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+<!-- Header -->
+<header class="bg-white shadow sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-indigo-600">Jeel Mali</h1>
+    <nav class="hidden md:flex space-x-4">
+      <a href="#welcome" class="hover:text-indigo-600 transition">Welcome</a>
+      <a href="#about" class="hover:text-indigo-600 transition">About</a>
+      <a href="#achievements" class="hover:text-indigo-600 transition">Achievements</a>
+      <a href="#goals" class="hover:text-indigo-600 transition">Goals</a>
+      <a href="#personal" class="hover:text-indigo-600 transition">Personal</a>
+      <a href="#contact" class="hover:text-indigo-600 transition">Contact</a>
+    </nav>
+    <button id="menu-btn" class="md:hidden text-3xl focus:outline-none">&#9776;</button>
+  </div>
+</header>
+
+<!-- Mobile nav -->
+<div id="mobile-menu" class="md:hidden hidden px-4 pb-4 space-y-2 bg-white shadow">
+  <a href="#welcome" class="block hover:text-indigo-600">Welcome</a>
+  <a href="#about" class="block hover:text-indigo-600">About</a>
+  <a href="#achievements" class="block hover:text-indigo-600">Achievements</a>
+  <a href="#goals" class="block hover:text-indigo-600">Goals</a>
+  <a href="#personal" class="block hover:text-indigo-600">Personal</a>
+  <a href="#contact" class="block hover:text-indigo-600">Contact</a>
+</div>
+
+<main>
+  <!-- Welcome -->
+  <section id="welcome" class="py-16 text-center bg-indigo-50 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Welcome to My Portfolio</h2>
+      <p class="text-lg mb-6">I’m excited to share my work and dreams with you.</p>
+      <img src="./assets/jeelimg.jpg" alt="Jeel Mali smiling portrait" class="w-40 h-40 mx-auto rounded-full object-cover shadow mb-4" />
+      <video controls class="mx-auto rounded-lg shadow w-full max-w-xl">
+        <source src="assets/your-intro-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 px-4 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4">About Me</h2>
+    <ul class="space-y-2">
+      <li><strong>Name:</strong> Jeel Mali</li>
+      <li><strong>Location:</strong> Dungi Wadi, Manor Road, Palghar East 401404</li>
+      <li><strong>Education:</strong> B.Tech in Computer Engineering (2nd year)</li>
+      <li><strong>College:</strong> St. John College of Engineering and Technology</li>
+      <li><strong>Languages:</strong> English, Hindi, Marathi</li>
+    </ul>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="py-16 px-4 bg-indigo-50 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4">🏆 Achievements</h2>
+    <ul class="list-disc list-inside space-y-1">
+      <li>Completed SQL & DotNet training at Kantascrypt (2024)</li>
+      <li>Built a shopping website</li>
+      <li>Volunteered at animal shelter events (2023)</li>
+    </ul>
+  </section>
+
+  <!-- Goals -->
+  <section id="goals" class="py-16 px-4 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4">🚀 Future Goals</h2>
+    <p>I aim to become a skilled software developer, contribute to open-source projects, and leave a positive mark on the tech community.</p>
+  </section>
+
+  <!-- Personal -->
+  <section id="personal" class="py-16 px-4 bg-indigo-50 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4">🎨 More About Me</h2>
+    <p><strong>Hobbies:</strong> Reading, Traveling</p>
+    <p><strong>Favorites:</strong> "Clean Code", GitHub</p>
+    <p><strong>Skills:</strong> JavaScript, Python, SQL, Web Development</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-4 max-w-4xl mx-auto text-center bg-white">
+    <h2 class="text-2xl font-bold mb-6">📬 Contact Me</h2>
+    <p class="mb-4">I'd love to hear from you. Reach out anytime!</p>
+    <div class="space-y-4 text-lg">
+      <p>📧 <a href="mailto:jeel.mali0345@gmail.com" class="text-indigo-600 underline">jeel.mali0345@gmail.com</a></p>
+      <p>📞 <a href="tel:+918149818370" class="text-indigo-600 underline">+91 8149818370</a></p>
+      <p>💬 <a href="https://wa.me/918149818370" target="_blank" class="text-green-600 underline">WhatsApp Chat</a></p>
+      <p>🌍 Socials:
+        <a href="https://github.com/jeelmali" target="_blank" class="text-indigo-600 underline ml-2">GitHub</a> |
+        <a href="#" class="text-indigo-600 underline">LinkedIn</a> |
+        <a href="#" class="text-indigo-600 underline">Instagram</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Location Map -->
+  <section id="location" class="py-16 px-4 max-w-6xl mx-auto text-center bg-indigo-50">
+    <h2 class="text-2xl font-bold mb-6">📍 My Location</h2>
+    <div class="w-full h-96 shadow-lg rounded-lg overflow-hidden">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.528107088438!2d72.75589601490188!3d19.693680886742582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be71379284ec3ab%3A0x36d71586f16d6d18!2sManor%20Rd%2C%20Palghar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white text-center py-4">
+  <p>&copy; 2025 Jeel Mali | <a href="https://github.com/jeelmali" target="_blank" class="underline">GitHub</a></p>
+</footer>
+
+<!-- Scroll to Top Button -->
+<button id="scrollTopBtn" title="Scroll to top"
+  class="hidden fixed bottom-6 right-6 bg-indigo-600 text-white p-3 rounded-full shadow-lg hover:bg-indigo-700 transition">
+  ↑
+</button>
+
+<!-- Scripts -->
+<script>
+  // Toggle mobile menu
+  document.getElementById('menu-btn').addEventListener('click', function () {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('hidden');
+  });
+
+  // Scroll to top logic
+  const scrollBtn = document.getElementById('scrollTopBtn');
+  window.onscroll = () => {
+    scrollBtn.classList.toggle('hidden', window.scrollY < 300);
+  };
+  scrollBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+</script>
+
+</body>
+</html>
